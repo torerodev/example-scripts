@@ -9,3 +9,11 @@ This resource is to help users test and demo torero.  They are basic scripts use
 ## Python
 
 echo.py - simply echo's back the args/input
+
+## Ansible
+
+hello-ansible.yml - simple hello world ansible script
+
+## OpenTofu
+
+hello-plan - folder containing OpenTofu main.tf file that is a hello world for OpenTofu
