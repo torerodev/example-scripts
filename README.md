@@ -8,7 +8,7 @@ This resource is to help users test and demo torero.  They are basic scripts use
 
 ## Python
 
-echo.py - simply echo's back the args/input
+hello-torero.py - simple hello, world python script
 
 ## Ansible
 
