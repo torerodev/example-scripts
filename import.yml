@@ -1,0 +1,24 @@
+repositories:
+    - name: example-scripts-repo
+      description: Simple repository for quick start
+      url: https://github.com/torerodev/example-scripts.git
+      reference: main
+services:
+    - name: hello-ansible
+      type: ansible-playbook
+      description: Quick Start Example
+      playbooks:
+        - hello-ansible.yml
+      working-directory: ""
+      repository: example-scripts-repo
+    - name: hello-torero
+      type: python-script
+      description: Quick Start Example
+      filename: hello-torero.py
+      working-directory: ""
+      repository: example-scripts-repo
+    - name: hello-opentofu
+      type: opentofu-plan
+      description: Quick Start Example
+      working-directory: hello-plan
+      repository: example-scripts-repo
